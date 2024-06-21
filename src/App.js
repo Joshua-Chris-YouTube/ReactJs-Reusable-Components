@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css';
-import HelloWorld from './HelloWorld';
-import Counter from './Counter';
+import Board from './components/Board';
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld />
-      <Counter />
+      <Board />
     </div>
   );
 }
